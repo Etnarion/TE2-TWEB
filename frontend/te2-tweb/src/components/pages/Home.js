@@ -1,15 +1,15 @@
 import React from 'react'
 
-class Header extends React.Component {
+class Home extends React.Component {
 	constructor(props) {
 		super(props)
 	}
 
 	render() {
 		return (
-			<div className="header"></div>
+			<div>Cette page est vraiment super</div>
 		)
 	}
 }
 
-export default Header
+export default Home

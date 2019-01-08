@@ -1,7 +1,7 @@
 const conf = {
 	db: {
 		port: "27017",
-		host: process.env.NODE_ENV === "production" ? process.env.MONGODB_ENDPOINT_URL : "localhost",
+		host: process.env.NODE_ENV === "production" ? process.env.MONGODB_ENDPOINT_URL : "mongodb",
 		name: "te2tweb",
 		usr: "dev",
 		pwd: "dev",
